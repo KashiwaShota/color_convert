@@ -2,7 +2,7 @@
 function convertRGBtoHSV(red, green, blue){
   var hsv = new Array(3);//色相、彩度、明度を格納する配列
   var max, min;//最大値、最小値
-  
+  //
   //RGBの中での最大値
   max = Math.max(red, Math.max(green, blue));
   //RGBの中での最小値
